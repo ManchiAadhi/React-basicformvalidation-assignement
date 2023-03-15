@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#Maincontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+#datacontainer{
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 15%;
+    width: 80%;
+    color:white;
+    background-color: green;
+}
+p{
+    color:red;
+}
+#sucess{
+    background-color:blue;
+    color:white;
+    height: 20%;
+    width:80%;
+}
+input{
+    background-color: lightblue;
+}
+input:hover{
+    background-color: white;
+    border: 2px solid black;
+    transition: ();
+}
